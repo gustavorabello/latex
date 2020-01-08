@@ -380,15 +380,18 @@ Incompressible Navier-Stokes Equations},
 	Volume = {32},
 	Year = {1982}}
 
-@book{bazilevs2012,
-	publisher = {John Wiley \& Sons, Ltd},
-	author = {Bazilevs Y. and Takizawa K. and Tezduyar, T.E.},
-	isbn = {9781118483565},
-	title = {Front Matter},
-	booktitle = {Computational Fluid–Structure Interaction},
-	pages = {1-384},
-	url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118483565.fmatter},
-	year = {2012},
+@inbook{bazilevs2012,
+publisher = {John Wiley \& Sons, Ltd},
+isbn = {9781118483565},
+title = {Front Matter},
+booktitle = {Computational Fluid–Structure Interaction},
+chapter = {},
+pages = {i-xix},
+doi = {10.1002/9781118483565.fmatter},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118483565.fmatter},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118483565.fmatter},
+year = {2012},
+abstract = {Summary The prelims comprise: Half-Title Page Wiley Series Page Title Page Copyright Page Table of Contents Series Preface Preface Acknowledgements}
 }
 
 @article{donea1984,
@@ -2221,12 +2224,18 @@ eluting stents},
 	Year = {2004}}
 
 @article{ferrari2017,
-	Author = {Ferrari, A. and Magnini, M. and Thome J.R.},
-	Journal = {International Journal of Multiphase Flow},
-	Pages = {276--295},
-	Title = {A Flexible Coupled Level Set and Volume of Fluid (flexCLV) method to simulate microscale two-phase flow in non-uniform and unstructured meshes},
-	Volume = {91},
-	Year = {2017}}
+title = "A Flexible Coupled Level Set and Volume of Fluid (flexCLV) method to simulate microscale two-phase flow in non-uniform and unstructured meshes",
+journal = "International Journal of Multiphase Flow",
+volume = "91",
+pages = "276 - 295",
+year = "2017",
+issn = "0301-9322",
+doi = "https://doi.org/10.1016/j.ijmultiphaseflow.2017.01.017",
+url = "http://www.sciencedirect.com/science/article/pii/S0301932216305389",
+author = "Andrea Ferrari and Mirco Magnini and John R. Thome",
+keywords = "Slug flow, Taylor flow, Volume of fluid, Level set, Coupled VOF and LS, Numerical simulations",
+abstract = "An innovative Flexible Coupled Level Set (LS) and Volume of Fluid (VOF) algorithm (flexCLV) to simulate two-phase flows at the microscale on unstructured and non-uniform meshes is proposed. The method combines the advantages of the VOF method in terms of mass conservation and the LS method in terms of accuracy of the surface tension implementation and can handle both 2D and 3D domains discretized by either structured hexaedra or unstructured tetrahedral grids with high aspect ratio elements, thus guaranteeing flexibility and robustness. The method is implemented within the VOF-based OpenFOAM’s solver interFoam, which is retained as the base algorithm for the interface advection, while the surface tension force is calculated by using the level set function reconstructed from the VOF’s fraction. The method is first validated in static flow conditions by simulating a circular bubble at equilibrium and then in dynamic flow conditions by studying a freely bubble rising in both 2D and 3D domains discretized by both structured and unstructured meshes. The proposed flexCLV algorithm is then used to simulate the dynamics of confined bubbles in circular microchannels in the low capillary number regime. 2D and 3D mesh grids with high aspect ratio elements are utilized to discretized the liquid film at the tube’s walls. The numerical results are compared with the available literature and simulations performed with the original interFoam solver in terms of bubble shape and velocity, thickness of the liquid film and amplitude of the bubble tail oscillations. Results compare very well with the experimental measurements and demonstrate the superior accuracy of the coupled flexCLV method with respect to the original VOF method when surface tension and accurate interface representation play a fundamental role. Importantly, the present study also provides a precious insight on the time-dependent patterns appearing on the bubble surface in the visco-inertial regime, which could be here investigated in detail."
+}
 
 @article{litak2017,
 	Author = {Litak, G. and Gorski, G. and Mosdorf, R. and
