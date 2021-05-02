@@ -2803,3 +2803,27 @@ abstract = {Abstract: The effect of surfactants on the buoyancy-driven motion of
 year = {2004}
 }
 
+@article{tukovic2012,
+title = {A moving mesh finite volume interface tracking method for surface tension dominated interfacial fluid flow},
+journal = {Computers & Fluids},
+volume = {55},
+pages = {70-84},
+year = {2012},
+issn = {0045-7930},
+doi = {https://doi.org/10.1016/j.compfluid.2011.11.003},
+url = {https://www.sciencedirect.com/science/article/pii/S0045793011003380},
+author = {Ž. Tuković and H. Jasak},
+keywords = {Collocated finite volume method, Moving polyhedral mesh, Interface tracking, Surface tension, Multiphase fluid flow, PISO algorithm, Rhie–Chow interpolation, OpenFOAM},
+abstract = {This paper describes a moving mesh interface tracking method implemented in OpenFOAM for simulating three-dimensional (3-D) incompressible and immiscible two-phase interfacial fluid flows with dominant surface tension forces. Collocated finite volume (FV) method is used for spatial discretisation of Navier–Stokes equations on moving polyhedral mesh. The mesh consists of two parts separated on interface. Fluid flow is solved on each mesh separately and coupling is accomplished in an iterative manner by enforcing the kinematic and dynamic condition at the interface. Surface tension force is calculated on arbitrary polygonal surface mesh with second order accuracy using a “force-conservative” approach. Arbitrary polyhedral mesh adapts to the time-varying shape of the interface using vertex-based automatic mesh motion solver which calculates the motion of internal points based on the prescribed motion of interface points by solving the variable diffusivity Laplace equation discretised using the finite element method. The overall solution procedure based on iterative PISO algorithm with modified Rhie–Chow interpolation is second-order accurate in space and time, as is confirmed by numerical experiments on small amplitude sloshing in a two-dimensional (2-D) tank, 3-D droplet oscillation and buoyant rise of a 3-D air bubble in water. Numerical results are found to be in excellent agreement with available theoretical and experimental results.}
+}
+
+@article{duineveld1995, 
+	author={Duineveld, P. C.}, 
+	title={The rise velocity and shape of bubbles in pure water at high Reynolds number}, 
+	volume={292}, 
+	DOI={10.1017/S0022112095001546}, 
+	journal={Journal of Fluid Mechanics}, 
+	publisher={Cambridge University Press}, 
+	year={1995}, 
+	pages={325–332}
+}
