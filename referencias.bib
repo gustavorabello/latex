@@ -2357,6 +2357,48 @@ keywords = "Arbitrary Lagrangian–Eulerian, Finite element method, Two-phase fl
 abstract = "The present work aims at developing a new flexible computational framework to simulate macro and microscale two-phase flows with dynamic boundaries. Such a technique is extremely useful for periodic and very large domains which requires exhaustive computational resources, consequently reducing the required numerical domain. In this article an interface tracking Finite Element (FE) method is used to solve the equations governing the motion of two immiscible incompressible fluids in the Arbitrary Lagrangian–Eulerian framework (ALE). The equations are written in axisymmetric coordinates, however the proposed moving boundary technique can be easily extended to 3-dimensional flows and other methods using the ALE framework such as the finite volume method. The two-phase interface separating the fluids is a subset of the domain mesh, therefore a layer of zero thickness is achieved assuring sharp transition of properties among phases. At the scale of interest, surface tension plays an important role and is thus considered in the flow equations. Several validations and results are presented for gravity dominated problem, including the sessile drop test and rising of spherical and Taylor bubbles, as well as the divergent and sinusoidal channels, showing accuracy for modeling two-phase flows in large and periodic domains."
 }
 
+@article{anjos2021,
+title = {Moving mesh methods for two-phase flow systems: Assessment, comparison and analysis},
+journal = {Computers \& Fluids},
+volume = {228},
+pages = {105053},
+year = {2021},
+issn = {0045-7930},
+doi = {https://doi.org/10.1016/j.compfluid.2021.105053},
+url = {https://www.sciencedirect.com/science/article/pii/S0045793021002176},
+author = {G.R. Anjos},
+keywords = {Arbitrary Lagrangian-Eulerian, High order finite element method, Two-phase flows, Surface tension, Adaptive mesh refinement, Semi-Lagrangian method},
+abstract = {We seek to assess the key aspects of two modern moving mesh approaches for simulating two-phase flows where a thin explicit interface separates the two fluids within the context of “one-fluid” formulation. Both methods discretize the fluid equations through the Finite Element (FE) method using the Arbitrary Lagrangian-Eulerian (ALE) framework, therefore a complex moving mesh scheme is achieved. These methods are supported by a spatial Heaviside function which locates the interface between fluids in the domain of interest. Despite a sharp geometrical definition of the tracked interface, one methodology requires a smooth regularization of the Heaviside function to avoid undesirable numerical instabilities. On the other hand, the second method bypass such an artificial requirement but an advanced remeshing algorithm is demaded to maintain the simulation. Several important test cases are used as benchmark to assess the capabilities of both approaches such as the oscillating drop and the Zalesak’s disk test where fundamental parameters are evaluated and more challenging two-phase flows such as the rising of single bubbles and microscale flows in capillaries. A comparison is then made to evaluate the important aspects of each model and an accurate analysis is made to quantify the errors associated to important parameters in two-phase flows such as surface tension, liquid film thickness, interfacial waves, interface deformation and bubble/drop shape.}
+}
+
+@Article{anjos2020b,
+AUTHOR = {Anjos, Gustavo R.},
+TITLE = {Numerical Investigation of Two-Phase Flows in Corrugated Channel with Single and Multiples Drops},
+JOURNAL = {Fluids},
+VOLUME = {6},
+YEAR = {2021},
+NUMBER = {1},
+ARTICLE-NUMBER = {13},
+URL = {https://www.mdpi.com/2311-5521/6/1/13},
+ISSN = {2311-5521},
+ABSTRACT = {This work aims at investigating numerically the effects of channel corrugation in two-phase flows with single and multiples drops subject to buoyancy-driven motion. A state-of-the-art model is employed to accurately compute the dynamics of the drop&rsquo;s interface deformation using a modern moving frame/moving mesh technique within the arbitrary Lagrangian&ndash;Eulerian framework, which allows one to simulate very large domains. The results reveal a complex and interesting dynamics when more than one drop is present in the system, leading eventually in coalescence due to the amplitude of the corrugated sinusoidal channel and distance between drops.},
+DOI = {10.3390/fluids6010013}
+}
+
+@Article{anjos2021b,
+AUTHOR = {Marques, Leandro and R. Anjos, Gustavo},
+TITLE = {Numerical Study of Bloodstream Diffusion of the New Generation of Drug-Eluting Stents in Coronary Arteries},
+JOURNAL = {Fluids},
+VOLUME = {6},
+YEAR = {2021},
+NUMBER = {2},
+ARTICLE-NUMBER = {71},
+URL = {https://www.mdpi.com/2311-5521/6/2/71},
+ISSN = {2311-5521},
+ABSTRACT = {The present work aims at developing a numerical study on the drug diffusion in the bloodstream in a coronary artery with drug-eluting stent implanted. The blood was modeled as a single-phase, incompressible and Newtonian fluid and the Navier–Stokes equation was approximated according to the Finite Element Method (FEM). The dynamics of drug-eluting concentration in bloodstream was investigated using four drug-eluting stents with different mass diffusivities in microchannels with variable cross sections, including a real coronary artery geometry with atherosclerosis. The results reveal complex drug concentration patterns and accumulation in the vicinity of the fat buildup.},
+DOI = {10.3390/fluids6020071}
+}
+
 @Book{noye1983,
    title =     {Computational techniques for differential equations},
    author =    {B.J. Noye},
